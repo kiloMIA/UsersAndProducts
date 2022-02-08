@@ -1,0 +1,9 @@
+package com.company.data.interfaces;
+
+import java.sql.Connection;
+
+public interface DB
+{
+    Connection getConnection();
+    void close();
+}
